@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPENSES TRACKER</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <form class = "main_wrapper">
+    <div class="main__wrapper">
+        <h3> Expenses Tracker</h3>
+        <p> Track your expenses here easily</p>
+        <div class="add_expense">
+            <form id="expense">
+            <label for="created-at">Date</label>
+            <input id="created_at" type="date">
+            <label for="amount">Amount</label>
+            <input id="amount" type="number">
+            <label for="Description">Description</label>
+            <input id="description" type="text">
+             <label for="category">Category</label>
+             <select id="category">
+                <option> Choose a category </option>
+                <option>Food</option>
+                <option>Health</option>
+                <option>Education</option>
+            </select>
+             <a href="index.html" class="cancel"> Cancel </a>
+             <a href="index.html" class="add">Add expense</a>
+            </form>
+        </div>
+        <script src="./main.js"></script>
+    </body>

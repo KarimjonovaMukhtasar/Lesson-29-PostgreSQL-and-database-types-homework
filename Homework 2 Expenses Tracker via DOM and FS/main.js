@@ -4,12 +4,17 @@ const empty = document.querySelector(".empty")
 const expensesList = document.querySelector(".expenses_list")
 const totalSum = document.querySelector(".total_sum")
 const expenseCard = document.querySelector(".expense_card")
+const date = document.querySelector("#created_at")
+const category = document.querySelector("#category")
+const description = document.querySelector("#description")
+const amount = document.querySelector("amount")
 
 addButton.addEventListener("click", ()=>{
         addExpense.style.display = "flex"
-        addExpense.innerHTML +=`
-        <label id="created_at">Date</label>
-        ` 
+        empty.innerHTML = null
+        expensesList.style.display = "flex"
+        totalSum += amount.value
+        expenseCard.style.display = "flex"
 })
 
 let expenses = JSON.parse(localStorage.getItem("expenses")) || [] 

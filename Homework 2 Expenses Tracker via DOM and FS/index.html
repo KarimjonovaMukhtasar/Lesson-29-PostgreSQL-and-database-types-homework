@@ -12,28 +12,12 @@
 </head>
 
 <body>
-    <form class = main_wrapper>
+    <form class = "main_wrapper">
     <div class="main__wrapper">
         <h3> Expenses Tracker</h3>
         <p> Track your expenses here easily</p>
-        <button class="add_button"> + Add expense </button>
-        <div class="add_expense">
-            <label for="created-at">Date</label>
-            <input id="created_at" type="date">
-            <label for="amount">Amount</label>
-            <input id="amount" type="number">
-            <label for="Description">Description</label>
-            <input id="description" type="text">
-             <label for="category">Category</label>
-             <select id="category">
-                <option> Choose a category </option>
-                <option>Food</option>
-                <option>Health</option>
-                <option>Education</option>
-            </select>
-            <button class="cancel"> Cancel </button>
-            <button class="add">Add expense</button>
-        </div>
+        <!-- <button class="add_button" onclick="window.location.replace('add.html')"> + Add expense </button> -->
+         <a href="add.html" class="add_button">+ Add expense</a>
         <input class="search" type="text" placeholder="Search expense...">
         <div class="empty">
             <p> No expenses here yet, start adding and tracking your expenses</p>
@@ -45,7 +29,7 @@
                     <th class="total_sum"> 0.0$ </th>
                 </thead>
                 <tbody>
-                        <td class="expense_card"> </td>
+                        <td class="expense_card"></td>
                 </tbody> 
             </table>
         </div>
