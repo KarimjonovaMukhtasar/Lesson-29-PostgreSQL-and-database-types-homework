@@ -1,0 +1,22 @@
+{
+  "name": "lesson-29-postgresql-and-database-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarimjonovaMukhtasar/Lesson-29-PostgreSQL-and-database-types-homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/KarimjonovaMukhtasar/Lesson-29-PostgreSQL-and-database-types-homework/issues"
+  },
+  "homepage": "https://github.com/KarimjonovaMukhtasar/Lesson-29-PostgreSQL-and-database-types-homework#readme"
+}
