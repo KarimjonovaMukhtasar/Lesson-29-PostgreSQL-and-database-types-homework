@@ -103,22 +103,33 @@ padding: 7px;
     border-radius: 5px;
     box-sizing: border-box;
 }
-.expenses_list{
+.expenses_list {
+    width: 90%;
+    margin: 20px auto;
     padding: 10px;
-    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
     display: none;
-    flex-direction: column;
-    gap: 10px;
 }
-.expense_card{
-    display: none;
-    justify-content: space-between;
+
+.expenses_list table {
     width: 100%;
-    box-shadow: 5px 5px 5px rgb(182, 182, 182);
-    padding: 10px;
-    border: 1px solid rgb(194, 193, 193);
+    border-collapse: collapse; /* merge borders */
+    text-align: left;
 }
-.delete__button{
+
+.expenses_list th, 
+.expenses_list td {
+    border: 1px solid cornflowerblue;
+    padding: 8px 12px;
+}
+
+.expenses_list th {
+    background-color: #f3f3f3;
+}
+
+.delete_button{
     color: red;
     padding: 3px;
 }

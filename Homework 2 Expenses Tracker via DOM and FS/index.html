@@ -10,15 +10,12 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-    <form class = "main">
     <div class="main__wrapper">
         <h3> Expenses Tracker</h3>
         <p> Track your expenses here easily</p>
          <button class="add_button">+ Add expense</button>
            <div class="add_expense">
-            <form id="expense">
             <label for="created-at">Date</label>
             <input id="created_at" type="date">
             <label for="amount">Amount</label>
@@ -32,9 +29,8 @@
                 <option>Health</option>
                 <option>Education</option>
             </select>
-             <button class="cancel"> Cancel </a>
-             <button class="add"> Add expense </a>
-            </form>
+             <button class="cancel"> Cancel </button>
+             <button class="add"> Add expense </button>
         </div>
         <input class="search" type="text" placeholder="Search expense...">
         <div class="empty">
@@ -42,21 +38,20 @@
         </div>
             <div class="expenses_list">
             <p>Total expenses: <span class="total_sum">0</span></p>
-            <table style="border-color: cornflowerblue; padding: 10px; margin: 10px;" class = "expenses_list">
+            <table style="border-color: cornflowerblue; padding: 10px; margin: 10px;">
                 <thead>
-                    <th> Total expenses:</th>
                     <th> Date </th>
                     <th> Category </th>
                     <th> Description </th>
                     <th> Amount </th>
+                    <th> Total Expenses:</th>
+                    <th> Delete Expense </th>
                 </thead>
                 <tbody class = "expense_body">
-                       
                 </tbody> 
             </table>
             </div>
     </div>
-    </form>
     <script src="./main.js"></script>
 </body>
 
